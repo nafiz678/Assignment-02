@@ -26,6 +26,10 @@ body {
     display: flex;
 }
 
+.grid {
+    display: grid;
+}
+
 .hide {
     display: none;
 }
@@ -47,7 +51,8 @@ header {
 }
 
 
-main {
+main,
+.section-6 {
     background: rgb(0, 0, 0);
 }
 
@@ -99,23 +104,6 @@ main {
     letter-spacing: 0.2px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.nav {
-    justify-content: space-around;
-    gap: 31.7%;
-} */
-
 .web-title {
     color: rgb(230, 83, 60);
     font-style: italic;
@@ -125,44 +113,6 @@ main {
     letter-spacing: 0%;
     text-align: left;
 }
-
-/* .navbar {
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-    padding-left: 4px;
-    align-items: center;
-} */
-/* 
-.nav-items {
-
-    list-style: none;
-    margin-right: 41px;
-
-} */
-
-/* .item-1 {
-
-    border-radius: 46px;
-    background: rgb(230, 83, 60);
-    padding: 7px 17px 7px 17px;
-} */
-
-/* .item-1 a {
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    line-height: 19px;
-} */
-
-/* 
-.nav-links {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 120%;
-    text-align: left;
-} */
 
 /* Banner section */
 
@@ -319,9 +269,10 @@ main {
 }
 
 /* section 3 related styles */
-.section-3{
+.section-3 {
     margin-bottom: 100px;
 }
+
 .sec-3-box-1 {
     padding-top: 80px;
 }
@@ -436,19 +387,174 @@ main {
     border-radius: 42px;
 }
 
-/* .sec-4-box-2 img{
-    width: 322px;
-    border-radius: 18px;
-} */
+/* section 5 related styles */
+.section-5 {
+    width: 80%;
+    margin: 0 auto;
+}
 
+.sec-5-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 90px 0 13px 0;
+}
 
+.sec-5-detail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 0px 0 50px 0;
+    width: 504px;
+}
 
+.section-5 {
+    display: none;
+}
 
+/* section 6 related styles */
+.section-6 {
+    padding-top: 100px;
+    width: 100%;
+    margin: 0 auto;
 
+}
 
+.section-6-container {
+    width: 100%;
+    background: rgb(34, 34, 34);
+}
 
+.sec-6-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 312px;
+    margin: 0px 338px;
+    text-align: left;
+}
 
+.sec-6-detail {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.77rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    width: 553px;
+    margin: 0 338px 80px;
+}
 
+.sec-6-bmi {
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.table-title {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 12.3px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+td,
+th {
+    font-size: 12.3px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    text-align: left;
+}
+
+.form-title {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+.form-detail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 510px;
+    padding: 0;
+}
+
+input,
+select {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    padding: 2% 6%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    margin-right: 4px;
+}
+
+select {
+    text-align: left;
+    padding: 14px 133px 14px 30px;
+    opacity: 0.6;
+    color: #999;
+}
+
+.bmi-button {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 32px;
+    padding: 3% 13%;
+}
 
 
 
@@ -641,7 +747,8 @@ main {
         padding: 30px 30px;
         row-gap: 30px;
     }
-    .sec-4-box-1{
+
+    .sec-4-box-1 {
         width: 268px;
     }
 
@@ -658,22 +765,103 @@ main {
         line-height: 24px;
         width: 250px;
     }
-    .sec-4-btn{
+
+    .sec-4-btn {
         width: 245px;
         padding: 16px 40px;
     }
-    .sec-4-box-2{
+
+    .sec-4-box-2 {
         width: 245px;
         height: 161px;
-        background-size:contain;
-        background-repeat:no-repeat;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: initial;
         border-radius: 18px;
     }
-    .section-3{
+
+    .section-3 {
         margin-bottom: 0px;
     }
 
+    .section-6 {
+        padding-top: 50px;
+    }
+
+    .sec-6-bmi {
+        flex-direction: column;
+    }
+
+    .sec-6-title {
+        margin-left: 20px;
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .sec-6-detail {
+        margin-left: 20px;
+        width: 289px;
+        margin-bottom: 30px;
+    }
+
+    .table-title {
+        margin-left: -20px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    table {
+        margin-left: -20px;
+        width: 300px;
+        height: 216px;
+    }
+
+    th,
+    td {
+        font-size: 14px;
+    }
+
+    .form-title {
+        margin-left: -20px;
+        font-size: 16px;
+    }
+
+    .form-detail {
+        margin-left: -20px;
+        font-size: 14px;
+        width: 289px;
+    }
+
+    form {
+        margin-left: -20px;
+
+    }
+
+    .form {
+        width: 106%;
+    }
+
+    input,
+    select {
+        padding: 12px 0px 12px 10px;
+        width: 43%; 
+    }
+
+    select {
+        padding: 14px 19% 14px 2%;
+        width: 46%;
+    }
+
+    #activity {
+        padding: 14px 36% 14px 2%;
+        width: 94%;
+    }
+
+    .bmi-button {
+        font-size: 14px;
+        padding: 16px 40px;
+        width: 224px;
+    }
 
 
 }
