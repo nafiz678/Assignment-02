@@ -43,6 +43,7 @@ header {
     background: linear-gradient(0deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.416) 100%), linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.416) 100%);
 }
 
+
 .area,
 .section-3,
 .section-4 {
@@ -827,6 +828,9 @@ hr {
     width: 75%;
     margin: 0 auto;
     background: linear-gradient(0deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.416) 100%), rgba(255, 255, 255, 0.1);
+}
+#activity{
+    padding: 14px 276px 14px 30px;
 }
 
 
