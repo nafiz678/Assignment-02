@@ -39,9 +39,16 @@ header {
     background: linear-gradient(0deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.416) 100%), linear-gradient(180.00deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.416) 100%);
 }
 
-.area {
+.area,
+.section-3,
+.section-4 {
     width: 80%;
     margin: 0 auto;
+}
+
+
+main {
+    background: rgb(0, 0, 0);
 }
 
 
@@ -311,10 +318,128 @@ header {
     display: none;
 }
 
+/* section 3 related styles */
+.section-3{
+    margin-bottom: 100px;
+}
+.sec-3-box-1 {
+    padding-top: 80px;
+}
 
+.sec-3-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.6rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 14px;
+}
 
+.sec-3-detail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.77rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0 0 50px 200px;
+    width: 590px;
 
+}
 
+.cards {
+    justify-content: flex-start;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 6px 68px 0px 0px;
+}
+
+.card-detail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 6px 0px 0px 0px;
+    width: 75%;
+}
+
+.card-circle {
+    background: #222222;
+    border-radius: 50%;
+    width: 191px;
+}
+
+.card-circle img {
+    border-radius: 48%;
+    padding: 5px 4px 0px 5px;
+}
+
+/* section 4 related style */
+.sec-4-container {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 28px 29px 47px;
+    justify-content: space-between;
+}
+
+.sec-4-box-1 {
+    width: 390px;
+
+}
+
+.sec-4-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+}
+
+.sec-4-detail {
+    margin: 14px 0px 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.78rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    width: 100%;
+}
+
+.sec-4-box-2 {
+    width: 360px;
+    height: 312px;
+    background: url(./B10A2/images/run.jpg);
+    background-position-x: 725px;
+    background-position-y: 780px;
+    border-radius: 18px;
+}
+
+.sec-4-btn {
+    padding: 15px 60px 15px 60px;
+    margin-top: 34px;
+    border-radius: 42px;
+}
+
+/* .sec-4-box-2 img{
+    width: 322px;
+    border-radius: 18px;
+} */
 
 
 
@@ -469,6 +594,81 @@ header {
         height: 25px;
         transform: rotate(270deg);
         filter: invert(1);
+    }
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-title {
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 6px;
+    }
+
+    .card-detail {
+        width: 200px !important;
+        margin: 0 auto !important;
+    }
+
+    .sec-3-card {
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .sec-3-detail {
+        margin: 0 auto;
+        width: 288px;
+        font-size: 0.77rem;
+        font-weight: 400;
+        line-height: 23px;
+        padding-bottom: 50px;
+    }
+
+    .sec-3-title {
+        font-size: 28px;
+        font-weight: 900;
+        width: 100%;
+    }
+
+    .sec-3-box-1 {
+        padding-top: 5px;
+    }
+
+    .sec-4-container {
+        flex-direction: column;
+        padding: 30px 30px;
+        row-gap: 30px;
+    }
+    .sec-4-box-1{
+        width: 268px;
+    }
+
+    .sec-4-title {
+        font-size: 1.9rem;
+        font-weight: 900;
+        line-height: 120%;
+        width: 200px;
+    }
+
+    .sec-4-detail {
+        font-size: 0.77rem;
+        font-weight: 400;
+        line-height: 24px;
+        width: 250px;
+    }
+    .sec-4-btn{
+        width: 245px;
+        padding: 16px 40px;
+    }
+    .sec-4-box-2{
+        width: 245px;
+        height: 161px;
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-position: initial;
+        border-radius: 18px;
     }
 
 
