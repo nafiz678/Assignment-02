@@ -562,6 +562,10 @@ select {
     background: rgb(0, 0, 0);
 }
 
+.section-8 {
+    padding-bottom: 100px;
+}
+
 .sec-7-title {
     color: rgb(255, 255, 255);
     font-size: 42px;
@@ -662,7 +666,7 @@ select {
     padding: 30px;
     border-radius: 18px;
     color: azure;
-    
+
 }
 
 .sec-8-title {
@@ -690,36 +694,39 @@ select {
     margin: 25px auto;
 }
 
-.con-1-title{
+.con-1-title {
     align-items: center;
     justify-content: space-between;
 }
 
-.best-value{
+.best-value {
     /* filter: ; */
     background: rgb(236, 236, 72);
     padding: 5px 10px;
     border: none;
     border-radius: 8px;
 }
-.con-1-start{
+
+.con-1-start {
     font-size: 17px;
     font-weight: 500;
 }
 
-.money{
+.money {
     font-size: 40px;
 }
-.mo{
+
+.mo {
     font-size: 16px;
 }
 
-.buttons{
+.buttons {
     justify-content: space-between;
     margin-top: 40px;
     align-items: center;
 }
-.btn-third{
+
+.btn-third {
     color: azure;
     background: #1c1c1c;
     border: none;
@@ -728,19 +735,96 @@ select {
     font-weight: 600;
     padding: 20px 32px;
 }
-.btn-forth{
+
+.btn-forth {
     color: azure;
     font-size: 20px;
     font-weight: 700;
 }
-.con-2{
+
+.con-2 {
     background: rgb(34, 34, 34);
 }
-.fifth{
+
+.fifth {
     background: #545454;
 }
 
+.section-9 {
+    background: rgb(34, 34, 34);
+    padding-top: 70px;
 
+}
+
+/* hr{
+background-color: rgba(255, 255, 255, 0.1)
+} */
+.sec-9-boxes {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+}
+
+.sec-9-box-1-title {
+    color: rgb(230, 83, 60);
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sec-9-box-1-detail {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.items {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 6px 0px;
+}
+
+.sec-9-box-2-title {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 170px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+hr {
+
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+}
 
 
 
@@ -1063,26 +1147,76 @@ select {
         width: 98%;
     }
 
-    .container{
+    .container {
         flex-direction: column;
         gap: 29px;
     }
-    .con-1{
+
+    .con-1 {
         width: 85%;
     }
-    .btn-third,.fifth{
+
+    .btn-third,
+    .fifth {
         padding: 15px 22px;
     }
-    .btn-forth, .sixth{
+
+    .btn-forth,
+    .sixth {
         font-size: 19px;
     }
 
-    .sec-8-title{
+    .sec-8-title {
         font-size: 45px;
         font-weight: 800;
         padding-bottom: 20px;
     }
 
+    .sec-9-boxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sec-9-box-1-title {
+        font-size: 50px;
+        line-height: 120%;
+        margin-left: -20px;
+    }
+
+    .sec-9-box-1-detail {
+        width: 243px;
+        margin-left: -20px;
+    }
+    .sec-9-boxes{
+        gap: 30px;
+    }
+
+    .sec-9-box-1-title {
+        padding: 0px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-left: -20px;
+    }
+
+    .items {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .menu-1 {
+        padding: 0px;
+        margin-left: -20px;
+    }
+
+    hr{
+        width: 90%;
+
+    }
 
 }
 
