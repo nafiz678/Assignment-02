@@ -775,6 +775,8 @@ background-color: rgba(255, 255, 255, 0.1)
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .sec-9-box-1-detail {
@@ -784,6 +786,7 @@ background-color: rgba(255, 255, 255, 0.1)
     line-height: 20px;
     letter-spacing: 0.3px;
     text-align: left;
+    
 }
 
 .items {
@@ -823,7 +826,7 @@ hr {
 
     width: 75%;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(0deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.416) 100%), rgba(255, 255, 255, 0.1);
 }
 
 
@@ -1225,11 +1228,4 @@ hr {
     }
 
 }
-
-
-
-
-
-
-
 @media screen and (min-width:576px) and (max-width:992px) {}
